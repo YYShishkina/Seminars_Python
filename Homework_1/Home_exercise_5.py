@@ -1,0 +1,5 @@
+xA = int (input ('input X coordinat of point A - '))
+yA = int (input ('input Y coordinat of point A - '))
+xB = int (input ('input X coordinat of point B - '))
+yB = int (input ('input X coordinat of point B - '))
+print ('The distance between A and B is - {:.2f}'.format(((xA-xB)**2+(yA-yB)**2)**0.5))

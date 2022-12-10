@@ -1,8 +1,7 @@
-numb_day = int (input ('input number day of the week - '))
-if (numb_day<=0 or numb_day>=8):
-    print (' in week only 7 days, tray again')
-if (numb_day>=1 and numb_day<=5):
-    print ('it is work day')
-if (numb_day==6 or numb_day==7):
-    print ('it is weekend')
-    
+x = int (input ('input number of day in the week - '))
+if (x<=0 or x>=7):
+    print ('The input number is wrong. In the week only seven days. Try again') 
+if (x>=1 and x<=5):
+    print ('Today is work day')
+if (x==6 or x==7):
+    print ('Today is weekend')
